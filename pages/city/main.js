@@ -137,7 +137,7 @@ exports.default = {
     };
   },
   onLoad: function onLoad(options) {
-    // console.log(options);
+    console.log(options);
     this.address = options.address;
   },
 
