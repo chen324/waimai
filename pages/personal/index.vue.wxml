@@ -1,0 +1,9 @@
+<template name="35e72860">
+  <view class="_div data-v-79ca6152 personal">
+    <view class="_div data-v-79ca6152 person-picture" wx:if="{{isLogin}}">
+      <image class="_img data-v-79ca6152 person-img" src="{{userInfo.avatarUrl}}" alt></image>
+    </view> <label wx:if="{{isLogin}}" class="_span data-v-79ca6152">{{userInfo.nickName}}</label> <button wx:if="{{!isLogin}}" open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-79ca6152">点击登陆</button>
+    <view class="_div data-v-79ca6152 collection"><label class="_span data-v-79ca6152 collection-text">收藏列表</label> <label class="_span data-v-79ca6152 right-arrows"></label></view>
+    <view class="_div data-v-79ca6152 downPage"></view>
+  </view>
+</template>
